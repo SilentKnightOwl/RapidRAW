@@ -1,0 +1,11 @@
+# NAFNet ONNX Export Script Dependencies
+# Self-contained version - no BasicSR required
+# Install with: pip install -r requirements.txt
+
+# Core dependency (only torch needed, rest are optional)
+torch>=2.0.0
+
+# ONNX export and optimization (optional but recommended)
+onnx>=1.14.0
+onnxsim>=0.4.33
+onnxconverter-common>=1.13.0

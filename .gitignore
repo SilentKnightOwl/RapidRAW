@@ -28,3 +28,8 @@ dist-ssr
 src-tauri/resources/libonnxruntime.so
 src-tauri/resources/libonnxruntime.dylib
 src-tauri/resources/onnxruntime.dll
+
+# Exported ONNX models (too large for git, use GitHub Releases instead)
+scripts/*.onnx
+scripts/*.onnx.data
+scripts/*.pth
